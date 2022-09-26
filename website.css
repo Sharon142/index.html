@@ -1,4 +1,11 @@
-#intro {text-align: center; color:black;}
-#greetings{text-align: center; color:black;}
-#quiz{text-align: center; color:black;}
-body {background-color: darkturquoise;}
+div {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 50px;
+  background-color: white;
+}
+body {
+  color: black;
+}
