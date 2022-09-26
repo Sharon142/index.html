@@ -10,6 +10,12 @@ function input(){
     greetings.style.display ="none"
     quiz.style.display ="block"  
   }
+
+if (userName.value = "none") {
+    alert("write your name first");//alert box for the first question
+} else {
+    const Question = document.querySelector("#question");//used to link the html coding using '#question'
+}
 const Question = document.querySelector("#question");//used to link the html coding using '#question'
 const Answer = document.querySelector("#answer");//input from the user
 const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
@@ -43,7 +49,7 @@ function quizFunction() { //Function of the quiz//
 }
 
 if (Answer.value == "discovery of dna"){
-    alert("change 'd' to 'D' and 'dna' to 'DNA'");//alert box for the first question
+    
 }
 
 function nextQuestion() {
