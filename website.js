@@ -13,12 +13,13 @@ function input(){
 const Question = document.querySelector("#question");//used to link the html coding using '#question'
 const Answer = document.querySelector("#answer");//input from the user
 const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
-const questionList = ["What is Rosalind Franklin famous for", "What is Grace Hopper's occupation", 
-"How many books did Neil Tyson wrote", "Isaac Newton discovered gravity during the Black Plague (True/False)",
- "What is Janet Taylor's first book", "Who is Thomas Edison's rival", "What is Jex-Blake's STEM contribution",
-  "Benjamin Franklin died at 48 (true/false)"];//list of questions//
-  const answerList = ["Discovery of DNA", "Computer scientist", "14", "True", 
-"Luni-Solar and Horary Tables", "Nikola Tesla", "Fought to study medicine", "False"];//list of answers//            
+const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False)", 
+"What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
+ "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
+  "How to avoid being a victim of a MITM Attack"];//list of questions//
+  const answerList = ["The hacker will be in the middle of a pathway between two end-users, two computer systems, or an end-user and a computer system", "False", 
+  "Use victim's credentials for their benefit", "35%","Yes", "Inserts advertisements to disrupt traffic", 
+  "It keeps and end-user's traffic private on a public server", "Avoid phishing scams"];//list of answers//            
 const congratsList = ["Correct!", "Well Done!", "Amazing!"];//output of words if the answer is correct//
 const wrongList = ["Incorrect", "Nope.", "No! You're wrong!"];//output of words if the answer is wrong//
 var number = 0; 
