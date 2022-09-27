@@ -8,7 +8,11 @@
     <body>
         <div id="intro">  
        <h1>Quiz</h1>
-       <h2 id="name">What is your name?</h2><br>         
+       <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required></form>
+       <h2 id="name">What is your name?</h2><br>  
+       <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>       
        </div>
        <div id = "greetings">
           <input id="userName"><br><br>
