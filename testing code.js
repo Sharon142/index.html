@@ -4,7 +4,13 @@ let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
-
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "" || x == null) {
+      alert("Write your name first");
+      return false;
+    }
+  }
 const Question = document.querySelector("#question");//used to link the html coding using '#question'
 const Answer = document.querySelector("#answer");//input from the user
 const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
