@@ -11,11 +11,6 @@ function input(){
     quiz.style.display ="block"  
   }
 
-if (userName.value = "none") {
-    alert("write your name first");//alert box for the first question
-} else {
-    const Question = document.querySelector("#question");//used to link the html coding using '#question'
-}
 const Question = document.querySelector("#question");//used to link the html coding using '#question'
 const Answer = document.querySelector("#answer");//input from the user
 const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
