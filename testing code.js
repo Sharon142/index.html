@@ -4,12 +4,23 @@ let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
-function input(){
-    name.innerHTML = ""
-    name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
-    greetings.style.display ="none"
-    quiz.style.display ="block"  
-  }
+if (fname="null") {
+    function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "" || x == null) {
+          alert("Write your name first");
+          return false;
+        }
+      }
+} else {
+    function input(){
+        name.innerHTML = ""
+        name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
+        greetings.style.display ="none"
+        quiz.style.display ="block"  
+      } 
+}
+
 
 const Question = document.querySelector("#question");//used to link the html coding using '#question'
 const Answer = document.querySelector("#answer");//input from the user
