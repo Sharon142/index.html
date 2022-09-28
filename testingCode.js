@@ -9,13 +9,7 @@ function validateForm() {
   if (x == "" || x == null) {
     alert("Write your name first");
     return false;
-  } else (x == "fname") {
-    name.innerHTML = ""
-    name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
-    greetings.style.display ="none"
-    quiz.style.display ="block"  
   } 
-   
   
 }
     const Question = document.querySelector("#question");//used to link the html coding using '#question'
