@@ -14,13 +14,13 @@ function validateForm() {
     name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
     greetings.style.display ="none"
     quiz.style.display ="block"  
+    const Question = document.querySelector("#question");//used to link the html coding using '#question'
     return true;
   } 
 }
 
   
-
-    const Question = document.querySelector("#question");//used to link the html coding using '#question'
+ 
     const Answer = document.querySelector("#answer");//input from the user
     const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
     const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False)", 
