@@ -10,10 +10,8 @@ function validateForm() {
     alert("Write your name first");
     return false;
   }  else{
-    name.innerHTML = ""
-    name.innerHTML = "Hello " + fname.value + ", welcome to my quiz.";
-    greetings.style.display ="none"
-    quiz.style.display ="block"  
+    alert ("Hello, welcome to my quiz")
+    return true;
   } 
 }
 
