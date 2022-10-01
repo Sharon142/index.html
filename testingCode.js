@@ -5,21 +5,12 @@ let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
 
-if (x == "" || x == null) {
-  function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    alert("Write your name first");
-    return false;
-  }
-} else {
-  function input(){
+ function input(){
     name.innerHTML = ""
     name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
     greetings.style.display ="none"
     quiz.style.display ="block"  
   }
-  }
-  
   
  
     const Answer = document.querySelector("#answer");//input from the user
