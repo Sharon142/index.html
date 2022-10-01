@@ -34,16 +34,7 @@ function input(){
     //ending with a question mark
     Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//
     
-    function answerValidation() {
-      if (Answer.value == "" || Answer.value == null) {
-        alert("Write an answer first");
-        return false; 
-      } else {
-        function quizFunction()
-        return true;
-      }
-    }
-   
+    
     function quizFunction() { //Function of the quiz//
         if (Answer.value = answerList) { //if/else statement//
             document.body.style.backgroundColor = "Green"; //if the answer is correct the background will turn//
