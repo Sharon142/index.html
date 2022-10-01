@@ -4,21 +4,22 @@ let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "" || x == null) {
+
+if (x == "" || x == null) {
+  function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
     alert("Write your name first");
     return false;
-  }  else{    
-    return true;
-  } 
-}
-function input(){
-  name.innerHTML = ""
-  name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
-  greetings.style.display ="none"
-  quiz.style.display ="block"  
-}
+  }
+} else {
+  function input(){
+    name.innerHTML = ""
+    name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
+    greetings.style.display ="none"
+    quiz.style.display ="block"  
+  }
+  }
+  
   
  
     const Answer = document.querySelector("#answer");//input from the user
@@ -65,4 +66,4 @@ function input(){
   
   
   
-
+  
