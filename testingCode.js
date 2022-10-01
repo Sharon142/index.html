@@ -32,8 +32,7 @@ function input(){
     var number = 0; 
     let text =  questionList[number] + "?";//the text appeared will be the one of the questions from left to right 
     //ending with a question mark
-    Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//
-    
+    Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//    
     
     function quizFunction() { //Function of the quiz//
         if (Answer.value = answerList) { //if/else statement//
