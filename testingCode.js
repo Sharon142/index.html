@@ -24,7 +24,7 @@ function input(){
     "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
      "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
       "How to avoid being a victim of a MITM Attack"];//list of questions//
-      const answerList = ["The hacker will be in the middle of a pathway between two end-users, two computer systems, or an end-user and a computer system", "False", 
+      const answerList = ["A hacker in the middle of a network pathway, two computer systems, or an end-user and a computer system", "False", 
       "Use victim's credentials for their benefit", "35%","Yes", "Inserts advertisements to disrupt traffic", 
       "It keeps and end-user's traffic private on a public server", "Avoid phishing scams"];//list of answers//            
     const congratsList = ["Correct!", "Well Done!", "Amazing!"];//output of words if the answer is correct//
@@ -34,6 +34,16 @@ function input(){
     //ending with a question mark
     Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//
     
+    function answerValidation() {
+      if (Answer.value == "" || Answer.value == null) {
+        alert("Write an answer first");
+        return false; 
+      } else {
+        function quizFunction()
+        return true;
+      }
+    }
+   
     function quizFunction() { //Function of the quiz//
         if (Answer.value = answerList) { //if/else statement//
             document.body.style.backgroundColor = "Green"; //if the answer is correct the background will turn//
