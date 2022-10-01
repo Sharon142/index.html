@@ -4,18 +4,17 @@ let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "" || x == null) {
+function input(){
+   if (userName.value == "" || userName.value == null) {
     alert("Name must be filled out");
     return false;
-  }
-}
-  function input(){
+   } else {
     name.innerHTML = ""
     name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
     greetings.style.display ="none"
-    quiz.style.display ="block"  
+    quiz.style.display ="block" 
+    return true; 
+   } 
   }
   
  
