@@ -4,8 +4,14 @@ let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
-
- function input(){
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "" || x == null) {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+  function input(){
     name.innerHTML = ""
     name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
     greetings.style.display ="none"
