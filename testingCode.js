@@ -8,6 +8,7 @@ quiz.style.display = "none";
 function input(){
    if (userName.value == "" || userName.value == null) {
     alert("Name must be filled out");
+    quiz.style.display = "none";
     return false;
    } else {
     name.innerHTML = ""
