@@ -3,7 +3,7 @@ let name = document.querySelector("#name");
 let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
-let question = 1;
+let question = 0;
 function input(){
    if (userName.value == "" || userName.value == null) {
     alert("Name must be filled out");
