@@ -14,7 +14,7 @@ function input(){
     name.innerHTML = ""
     name.innerHTML = "Hello " + userName.value + ", welcome to my quiz.";
     greetings.style.display ="none"
-    quiz.style.display ="none" 
+    quiz.style.display ="block" 
     return true; 
    } 
   }
