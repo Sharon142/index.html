@@ -50,10 +50,7 @@ function input(){
          text = "";
   }
     
-    if (Answer.value == "discovery of dna"){
-        
-    }
-    
+       
     function nextQuestion() {
         number += 1;
         text += questionList[number] + "?";//questions will be asked in a consecutive order
