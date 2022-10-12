@@ -22,7 +22,7 @@ function input(){
  
     const Answer = document.querySelector("#answer");//input from the user
     const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
-    const questionList = ["What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
+    const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False", "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
      "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
       "How to avoid being a victim of a MITM Attack"];//list of questions//
       const answerList = ["A hacker in the middle of a network pathway", "False", 
