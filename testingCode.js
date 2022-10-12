@@ -4,11 +4,11 @@ let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
 let question = 0;
-quiz.style.display = "none";
+quiz.style.display = "block";
 function input(){
    if (userName.value == "" || userName.value == null) {
     alert("Name must be filled out");
-    quiz.style.display = "none";
+    quiz.style.display = "block";
     return false;
    } else {
     name.innerHTML = ""
