@@ -37,12 +37,9 @@ function input(){
    
     function quizFunction() { //Function of the quiz//
       if (Answer.value = answerList) { //if/else statement//
-          document.body.style.backgroundColor = "Green"; //if the answer is correct the background will turn//
-          //and one of the words from the congrats list will appear//
-          Verdict.innerHTML = congratsList[number];//verdict is a code used to show whether or not the answer
-          //correct
-      } else { //if the answer is wrong the background will turn red and one of the words from the wrong list
-          //will appear
+          document.body.style.backgroundColor = "Green"; //if the answer is correct the background will turn and one of the words from the congrats list will appear//         
+          Verdict.innerHTML = congratsList[number];//verdict is a code used to show whether or not the answer correct          
+      } else { //if the answer is wrong the background will turn red and one of the words from the wrong list will appear         
           document.body.style.backgroundColor = "Red";
           Verdict.innerHTML = wrongList[number];
        } 
