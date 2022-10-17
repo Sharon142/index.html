@@ -22,7 +22,7 @@ function input(){
   const Question = document.querySelector("#question");//used to link the html coding using '#question'
     const Answer = document.querySelector("#answer");//input from the user
     const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
-    const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False", "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
+    const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False)", "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
      "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
       "How to avoid being a victim of a MITM Attack"];//list of questions//
       const answerList = ["A hacker in the middle of a network pathway", "False", 
@@ -35,18 +35,20 @@ function input(){
     //ending with a question mark
     Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//    
    
-    function quizFunction() { //Function of the quiz//
-      if (Answer.value = answerList) { //if/else statement//
-          document.body.style.backgroundColor = "Green"; //if the answer is correct the background will turn and one of the words from the congrats list will appear//         
-          Verdict.innerHTML = congratsList[number];//verdict is a code used to show whether or not the answer correct          
-      } else { //if the answer is wrong the background will turn red and one of the words from the wrong list will appear         
+    function quizFunction() { 
+      if (Answer.value = answerList) { 
+          document.body.style.backgroundColor = "Green";          
+          Verdict.innerHTML = congratsList[number]; 
+      } else {         
           document.body.style.backgroundColor = "Red";
           Verdict.innerHTML = wrongList[number];
        } 
   
          text = "";
   }
-    
+  //Function of the quiz above contains an if/else statement.  If the answer is correct, the background will turn and one//
+  //of the words from the congrats list will appear verdict is a code used to show whether or not the answer correct.  If//
+  //the answer is wrong the background will turn red and one of the words from the wrong list will appear//  
        
     function nextQuestion() {
         number += 1;
