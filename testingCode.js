@@ -50,8 +50,7 @@ function input(){
   //of the words from the congrats list will appear verdict is a code used to show whether or not the answer correct.  If//
   //the answer is wrong the background will turn red and one of the words from the wrong list will appear//  
        
-    function nextQuestion() {
-      document.getElementById('#answer').value='';      
+    function nextQuestion() {         
       number += 1;
       text += questionList[number] + "?";//questions will be asked in a consecutive order
       Question.innerHTML = text;
