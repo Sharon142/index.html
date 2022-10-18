@@ -26,7 +26,7 @@ function input(){
      "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
       "How to avoid being a victim of a MITM Attack"];//list of questions//
       const answerList = ["A hacker in the middle of a network pathway", "False", 
-      "Use victim's credentials for their benefit", "35%","Yes", "Inserts advertisements to disrupt traffic", 
+      "Use victim's credentials for their benefit", "g","Yes", "Inserts advertisements to disrupt traffic", 
       "It keeps and end-user's traffic private on a public server", "Avoid phishing scams"];//list of answers//            
     const congratsList = ["Correct!", "Well Done!", "Amazing!"];//output of words if the answer is correct//
     const wrongList = ["Incorrect", "Nope.", "No! You're wrong!"];//output of words if the answer is wrong//
