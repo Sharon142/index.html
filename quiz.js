@@ -33,7 +33,7 @@ function input(){
     Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//    
    
     function quizFunction() { 
-      console.log(Answer.value)
+      console.log(Answer.value[0])
       if (Answer.value == answerList) {         
         document.body.style.backgroundColor = "Green";          
           Verdict.innerHTML = congratsList[number]; 
