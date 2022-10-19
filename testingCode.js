@@ -18,8 +18,7 @@ function input(){
     return true; 
    } 
   }
-  
-  const Question = document.querySelector("#question");//used to link the html coding using '#question'
+    const Question = document.querySelector("#question");//used to link the html coding using '#question'
     const Answer = document.querySelector("#answer");//input from the user
     const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
     const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False)", "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
