@@ -22,7 +22,7 @@ function input(){
   const Question = document.querySelector("#question");//used to link the html coding using '#question'
     const Answer = document.querySelector("#answer");//input from the user
     const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
-    const questionList = ["Whaen was the first MITM Attack", "How much money does a business lose due to a MITM Attack", "After how many months a business will be bankrupt after a MITM Attack", "What is the percentage of MITM Attacks in 2019",
+    const questionList = ["When was the first MITM Attack", "How much money does a business lose due to a MITM Attack", "After how many months a business will be bankrupt after a MITM Attack", "What is the percentage of MITM Attacks in 2019",
      "What is the percentage of cryptocurrency transactions for illegal activity"];//list of questions//
       const answerList = ["1834", "$84,000 to $148,000","6", "35%",">70%"];//list of answers//            
     const congratsList = ["Correct!", "Well Done!", "Amazing!"];//output of words if the answer is correct//
@@ -34,7 +34,7 @@ function input(){
    
     function quizFunction() { 
       console.log(Answer.value)
-      if (Answer.value == answerList[0]) {         
+      if (Answer.value == answerList) {         
         document.body.style.backgroundColor = "Green";          
           Verdict.innerHTML = congratsList[number]; 
       } else {         
