@@ -37,8 +37,8 @@ function input(){
    
     function quizFunction() { 
       console.log(Answer.value)
-      if (Answer.value == answerList[0]) { 
-          document.body.style.backgroundColor = "Green";          
+      if (Answer.value == answerList[0]) {         
+        document.body.style.backgroundColor = "Green";          
           Verdict.innerHTML = congratsList[number]; 
       } else {         
           document.body.style.backgroundColor = "Red";
@@ -52,11 +52,17 @@ function input(){
   //the answer is wrong the background will turn red and one of the words from the wrong list will appear//  
        
     function nextQuestion() {         
+     if (Answer.value == "" || Answer.value == null) {
+      alert("Answer the question first");
+      Verdict.style.display = "none";   
+     } else {
       number += 1;
       text += questionList[number] + "?";//questions will be asked in a consecutive order
       Question.innerHTML = text;
       document.body.style.backgroundColor = "darkturquoise";
       Verdict.style.display = "none";   
+     }
+      
     }
   
   
