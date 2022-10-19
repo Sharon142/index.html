@@ -3,6 +3,7 @@ let name = document.querySelector("#name");
 let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
+let output = answer.toLowerCase();
 let question = 0;
 quiz.style.display = "none";
 function input(){
@@ -25,9 +26,9 @@ function input(){
     const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False)", "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
      "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
       "How to avoid being a victim of a MITM Attack"];//list of questions//
-      const answerList = ["A hacker in the middle of a network pathway", "False", 
-      "Use victim's credentials for their benefit", "g","Yes", "Inserts advertisements to disrupt traffic", 
-      "It keeps and end-user's traffic private on a public server", "Avoid phishing scams"];//list of answers//            
+      const answerList = ["a hacker in the middle of a network pathway", "false", 
+      "use victim's credentials for their benefit", "35%","yes", "inserts advertisements to disrupt traffic", 
+      "it keeps and end-user's traffic private on a public server", "avoid phishing scams"];//list of answers//            
     const congratsList = ["Correct!", "Well Done!", "Amazing!"];//output of words if the answer is correct//
     const wrongList = ["Incorrect", "Nope.", "No! You're wrong!"];//output of words if the answer is wrong//
     var number = 0; 
