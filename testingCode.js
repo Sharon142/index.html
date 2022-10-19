@@ -3,7 +3,6 @@ let name = document.querySelector("#name");
 let greetings = document.querySelector("#greetings");
 let quiz = document.querySelector("#quiz");
 let answer = document.querySelector("#answer");
-let output = answer.toLowerCase();
 let question = 0;
 quiz.style.display = "none";
 function input(){
