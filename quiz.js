@@ -33,8 +33,8 @@ function input(){
     Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//    
    
     function quizFunction() { 
-      console.log(Answer.value[0])
-      if (Answer.value == answerList) {         
+      console.log(Answer.value)
+      if (Answer.value == answerList[0]) {         
         document.body.style.backgroundColor = "Green";          
           Verdict.innerHTML = congratsList[number]; 
       } else {         
