@@ -34,7 +34,7 @@ function input(){
    
     function quizFunction() { 
       console.log(Answer.value)
-      if (Answer.value == answerList[+1]) {         
+      if (Answer.value == answerList[0]) {         
         document.body.style.backgroundColor = "Green";          
           Verdict.innerHTML = congratsList[number]; 
       } else {         
