@@ -34,7 +34,10 @@ function input(){
     let text =  questionList[number] + "?";//the text appeared will be the one of the questions from left to right 
     //ending with a question mark
     Question.innerHTML = text;//innerHTML is HTML coding inside one of the HTML components//    
-   
+    while (questionList < 9) {
+      Verdict.innerHTML = congratsList[number]; 
+      Verdict.innerHTML = wrongList[number];
+    }
     function quizFunction() { 
       console.log(Answer.value)
       if (Answer.value == answerList[0]) {         
