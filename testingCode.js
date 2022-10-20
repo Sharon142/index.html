@@ -36,15 +36,14 @@ function input(){
     
     function quizFunction() { 
       console.log(Answer.value)
-      while (questionList < 9) {
-         if (Answer.value == answerList[0]) {         
+      if (Answer.value == answerList[0]) {         
           document.body.style.backgroundColor = "Green";          
             Verdict.innerHTML = congratsList[number]; 
         } else {         
             document.body.style.backgroundColor = "Red";
             Verdict.innerHTML = wrongList[number];
          } 
-      }
+      
   
          text = "";
   }
