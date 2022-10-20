@@ -19,8 +19,7 @@ function input(){
    } 
   }
     const Question = document.querySelector("#question");//used to link the html coding using '#question'
-    const Answer = document.querySelector("#answer");//input from the user
-   
+    const Answer = document.querySelector("#answer");//input from the user   
     const Verdict = document.querySelector("#verdict");//determines whether or not the question is correct
     const questionList = ["What is a MITM Attack", "HTTP is safer than HTTPS (True/False)", "What is the purpose of MITM Attack", "What is the percentage of MITM Attacks in 2019",
      "Can hackers carry out IP Spoofing", "What is the purpose of Superfish Visual Search", "Why is VPN useful",
@@ -39,7 +38,6 @@ function input(){
       Verdict.innerHTML = wrongList[number];
     }
     function quizFunction() { 
-      const Answer = changeCase.toLowerCase( )
       console.log(Answer.value)
       if (Answer.value == answerList[0]) {         
         document.body.style.backgroundColor = "Green";          
