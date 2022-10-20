@@ -1,8 +1,9 @@
 let value = document.querySelector("#value");
 document.body.style.backgroundColor = "Yellow";
 function input(){
-    while (input.value < 50) {
+    while (i < 50) {
         text += "Value is too small!";
-        document.body.style.backgroundColor = "Turquiose";       
+        document.body.style.backgroundColor = "Turquiose";  
+        i++;     
       }
 }
