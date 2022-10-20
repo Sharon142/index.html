@@ -37,9 +37,7 @@ function input(){
     function quizFunction() { 
       console.log(Answer.value)
       while (questionList < 9) {
-        number += 1;
-        text += answerList[number];
-        if (Answer.value == answerList) {         
+         if (Answer.value == answerList[0]) {         
           document.body.style.backgroundColor = "Green";          
             Verdict.innerHTML = congratsList[number]; 
         } else {         
