@@ -39,7 +39,7 @@ function input(){
       Verdict.innerHTML = wrongList[number];
     }
     function quizFunction() { 
-      Answer = changeCase.toLowerCase( );
+      const Answer = changeCase.toLowerCase( );
       console.log(Answer.value)
       if (Answer.value == answerList[0]) {         
         document.body.style.backgroundColor = "Green";          
