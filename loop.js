@@ -29,11 +29,7 @@ let response = {
     'New Zealand',
     'Canada'
   ],
-  cities: {
-    'California',
-    'New York',
-    'Auckland',
-  }
+ 
 }
  
 };
