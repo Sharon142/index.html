@@ -1,3 +1,13 @@
+public class Main {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+
 document.body.style.backgroundColor = "Yellow";
 const Verdict = document.querySelector("#verdict");
 const number = ["The number is less than 25"]
@@ -16,15 +26,7 @@ for (let i = 0; i < 51; i++) {
      
 }
 
-public class Main {
-  static int myMethod(int x) {
-    return 5 + x;
-  }
 
-  public static void main(String[] args) {
-    System.out.println(myMethod(3));
-  }
-}
 
 let response = {
   response: 'number',
