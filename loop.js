@@ -1,11 +1,17 @@
-let value = document.querySelector("#value");
+let counter = document.querySelector("#counter");
 document.body.style.backgroundColor = "Yellow";
-function input(){
+function number(){
+  if (counter.value < 10) {
     while (i < 10) {
-        text += "Value is too small!";
-        document.body.style.backgroundColor = "Turquiose";  
-        i++;     
-      }
+      text += "Value is too small!";
+      document.body.style.backgroundColor = "Turquiose";  
+      i++;     
+    }
+  } else {
+    text += "Value is too large";
+      document.body.style.backgroundColor = "Purple"; 
+  }
+    
 }
 
 public class Main {
