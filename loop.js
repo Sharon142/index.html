@@ -1,17 +1,18 @@
-let counter = document.querySelector("#counter");
 document.body.style.backgroundColor = "Yellow";
+const Verdict = document.querySelector("#verdict");
+const number = ["The number is less than 25"]
+const counter = ["The number is more than 25"]
 function number(){
-  if (counter.value < 10) {
-    while (i < 10) {
-      text += "Value is too small!";
-      document.body.style.backgroundColor = "Turquiose";  
-      i++;     
-    }
-  } else {
-    text += "Value is too large";
-      document.body.style.backgroundColor = "Purple"; 
-  }
-    
+  let text = "";
+for (let i = 0; i < 51; i++) {
+  if (i === 25) { continue; }
+ if (i < 25) {
+  Verdict.innerHTML = number;
+ } else {
+  Verdict.innerHTML = counter;
+ }
+}
+     
 }
 
 public class Main {
