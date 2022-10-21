@@ -3,11 +3,10 @@ let answer = document.querySelector("#answer");
 const Verdict = document.querySelector("#verdict");
 const digit = ["The number is less than 25"]
 const counter = ["The number is more than 25"]
-function number(){
-  let numeral = "";
+function number(str){
+  let answer = "";
 for (let i = 0; i < 51; i++) {
   console.log(number.value)
-  if (i === 25) { continue; }
  if (i < 25) {
   answer.innerHTML = answer.value + "is too small";
  } else {
