@@ -1,6 +1,7 @@
 document.body.style.backgroundColor = "Yellow";
 let answer = document.querySelector("#answer");
-const Verdict = document.querySelector("#verdict");
+let Verdict = document.querySelector("#verdict");
+let x = document.querySelector("#x");
 const digit = ["The number is less than 25"]
 const counter = ["The number is more than 25"]
 function number(str){
@@ -38,8 +39,8 @@ let response = {
     countries: [
     'Australia',
     'New Zealand',
-    'Canada'
-  ],
+    'Canada',
+  ]
  
 }
  
