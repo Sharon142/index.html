@@ -9,9 +9,9 @@ for (let i = 0; i < 51; i++) {
   console.log(number.value)
   if (i === 25) { continue; }
  if (i < 25) {
-  Verdict.innerHTML = number;
+  answer.innerHTML = answer.value + "is too small";
  } else {
-  Verdict.innerHTML = counter;
+  answer.innerHTML = answer.value + "is too large";
  }
 }
      
