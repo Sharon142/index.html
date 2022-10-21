@@ -5,6 +5,7 @@ const counter = ["The number is more than 25"]
 function number(){
   let text = "";
 for (let i = 0; i < 51; i++) {
+  console.log(number.value)
   if (i === 25) { continue; }
  if (i < 25) {
   Verdict.innerHTML = number;
