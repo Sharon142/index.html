@@ -42,6 +42,7 @@ function input(){
         } else {         
             document.body.style.backgroundColor = "Red";
             Verdict.innerHTML = wrongList[number];
+            alert("Make sure the answer is typed in lower case");
          } 
       
   
